@@ -1,0 +1,15 @@
+<head>
+   <link href="Chat.css" rel="stylesheet" />
+ </head>
+ <body>
+   <div id="bot"/>
+   <script src="https://cdn.botframework.com/botframework-webchat/latest/botchat.js"></script>
+   <script>
+     BotChat.App({
+       directLine: { secret: 'NqeyNphABXg.cwA.7tU.qia_Cbzh-gYH7TBA4Yh8MfDT-Yuey23FG-wAJwQ7SBI' },
+       user: { id: 'josh@photoboothsupplyco.com' },
+       bot: { id: 'PBSCOBot' },
+       resize: 'detect'
+     }, document.getElementById("bot"));
+   </script>
+ </body>
